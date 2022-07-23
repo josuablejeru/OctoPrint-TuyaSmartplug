@@ -1,21 +1,22 @@
 # OctoPrint-TuyaSmartplug
 
-Work based on [OctoPrint-TPLinkSmartplug](https://github.com/jneilliii/OctoPrint-TPLinkSmartplug) and [python-tuya](https://github.com/clach04/python-tuya).
+This Plugin is a Fork of [Ziirish](https://github.com/ziirish) implementation and
+based on [OctoPrint-TPLinkSmartplug](https://github.com/jneilliii/OctoPrint-TPLinkSmartplug) and [python-tuya](https://github.com/clach04/python-tuya).
 This plugin controlls [Tuya-based](https://en.tuya.com/) SmartPlugs.
 
 ##  Screenshots
-![screenshot](screenshot.png)
+![screenshot](/assets/screenshot.png)
 
-![screenshot](settings.png)
+![screenshot](/assets/settings.png)
 
-![screenshot](plugeditor.png)
+![screenshot](/assets/plugeditor.png)
 
 ## Setup
 
 Install via the bundled [Plugin Manager](https://github.com/foosel/OctoPrint/wiki/Plugin:-Plugin-Manager)
 or manually using this URL:
 
-    https://github.com/ziirish/OctoPrint-TuyaSmartplug/archive/master.zip
+    https://github.com/josuablejeru/OctoPrint-TuyaSmartplug/archive/master.zip
 
 
 ## Preparatory work
@@ -60,8 +61,3 @@ Once installed go into settings and enter the ip address for your TP-Link Smartp
   - When checked will run system command configured in **System Command On** setting after a delay in seconds configured in **System Command On Delay**.
 - **Run System Command Before Off**
   - When checked will run system command configured in **System Command Off** setting after a delay in seconds configured in **System Command Off Delay**.
-
-## Support jneilliii Efforts
-Most of the code used in this plugin has been written by
-[jneilliii](https://github.com/jneilliii) so if you want to support someone,
-you can support his work.
